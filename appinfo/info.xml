@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>rsspicturefeed</id>
+	<name>R S S Picture Feed</name>
+	<summary>Erzeugt einen geschützten RSS-Feed von Bildern in einem Verzeichnis</summary>
+	<description>In älteren Bilderrahmen können RSS-Feeds von Bildern, bspw. von Framechannel, eingebunden werden. Dieses Addon erlaubt es, stattdessen eine lokale Quelle anzubieten, die bspw. über einen DNS-Eintrag an der Stelle des Anbieters genutzt werden kann.</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author mail="benedikt@puettbach.de" homepage="">Benedikt Püttbach</author>
+	<namespace>RSSPictureFeed</namespace>
+	<category>multimedia</category>
+	<bugs>https://github.com/scipiojr/nextcloud_rss_picture_feed</bugs>
+	<dependencies>
+		<nextcloud min-version="29" max-version="29"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>rsspicturefeed</id>
+			<name>R S S Picture Feed</name>
+			<route>rsspicturefeed.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
